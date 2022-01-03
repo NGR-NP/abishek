@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.main{
+  background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  animation: bg-change 20s infinite;
+  position: relative;
+}
+.input{
+  background-color: transparent;
+  width: 30%;
+  height: 6%;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid teal;
+  padding: 20px;
+  font-size: 30px;
+
+  color: white;
+}
+.input:focus{
+  border: 2px solid rgb(52, 250, 2);
+ outline: none;
+}
+@keyframes bg-change{
+  0%{
+    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  50%{
+    background-image: url('https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  100%{
+    background-image: url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+
+
+}
+
+::placeholder{
+  color: rgb(2, 2, 2);
+ 
+  
+}
+.aH1{
+  position: absolute;
+  top: 50%;
+}
